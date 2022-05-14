@@ -38,6 +38,7 @@ const moduleExports = withPlugins([], {
   reactRemoveProperties: NEXT_PUBLIC_APP_ENV !== 'test',
   removeConsole:
     NEXT_PUBLIC_APP_ENV === 'prod' ? { exclude: ['error'] } : false,
+  swcMinify: false,
 });
 
 module.exports = moduleExports;
