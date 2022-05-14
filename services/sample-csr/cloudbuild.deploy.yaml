@@ -2,7 +2,7 @@
 steps:  
   - name: 'node:16.15.0'
     entrypoint: yarn
-    args: ['sample-ssr', 'build:dev']
+    args: ['sample-csr', 'build:dev']
 
   - name: 'gcr.io/cloud-builders/gcloud'
     args:
@@ -12,7 +12,7 @@ steps:
         '--verbosity',
         'debug',
         'dispatch.yaml',
-        'services/sample-ssr/app.yaml',
+        'services/sample-csr/app.yaml',
       ]
 
 timeout: '1600s'
