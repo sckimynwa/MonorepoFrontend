@@ -5,5 +5,5 @@ dispatch:
   - url: "*/ssr"
     service: sample-ssr
 
-  - url: "*"
+  - url: "*/*"
     service: default
