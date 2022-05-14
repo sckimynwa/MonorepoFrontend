@@ -2,7 +2,7 @@
 steps:
   - name: 'node:16.15.0'
     entrypoint: yarn
-    args: ['sample-ssr', 'build:dev']
+    args: ['--version']
 
   - name: 'gcr.io/cloud-builders/gcloud'
     args:
