@@ -1,0 +1,34 @@
+# https://cloud.google.com/appengine/docs/standard/nodejs/config/appref
+runtime: nodejs16
+env: standard
+instance_class: F1
+
+default_expiration: "30m"
+
+handlers:
+  - url: /favicon\.ico
+    secure: always
+    static_files: build/favicon.ico
+    upload: build/favicon.ico
+
+  - url: /robots\.txt
+    secure: always
+    static_files: build/robots.txt
+    upload: build/robots.txt
+
+  - url: /static
+    secure: always
+    static_dir: build/static
+
+  - url: /.*
+    secure: always
+    expiration: 10s
+    static_files: build/index.html
+    upload: build/index.html
+
+automatic_scaling:
+  min_idle_instances: 0
+  max_idle_instances: 1
+  max_concurrent_requests: 20
+  min_pending_latency: automatic
+  max_pending_latency: automatic
