@@ -1,8 +1,0 @@
-{
-  "baseUrl": "http://localhost:3000",
-  "testFiles": ["**/*.{feature,features}"],
-  "defaultCommandTimeout": 4000,
-  "video": false,
-  "viewportWidth": 390,
-  "viewportHeight": 844
-}
