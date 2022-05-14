@@ -1,0 +1,10 @@
+{
+  "name": "normal-coder",
+  "packageManager": "yarn@3.2.1",
+  "private": true,
+  "workspaces": [
+    "cronjobs/*",
+    "libraries/*",
+    "services/*"
+  ]
+}
