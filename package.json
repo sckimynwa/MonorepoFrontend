@@ -4,10 +4,12 @@
   "private": true,
   "workspaces": [
     "cronjobs/*",
+    "docs/*",
     "libraries/*",
     "services/*"
   ],
   "scripts": {
+    "sample-csr": "yarn workspace @yeoulcoding/sample-csr",
     "sample-ssr": "yarn workspace @yeoulcoding/sample-ssr",
     "prepare": "simple-git-hooks",
     "sc": "sh scripts/git/bootstrap.sh",
