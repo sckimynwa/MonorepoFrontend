@@ -2,6 +2,7 @@
 runtime: nodejs16
 env: standard
 instance_class: F1
+service: sample-csr
 
 default_expiration: "30m"
 
