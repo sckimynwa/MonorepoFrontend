@@ -12,5 +12,14 @@
     "prepare": "simple-git-hooks",
     "sc": "sh scripts/git/bootstrap.sh",
     "sc:reset": "git sparse-checkout disable"
+  },
+  "devDependencies": {
+    "@yarnpkg/sdks": "^2.6.2",
+    "eslint": "^7.30.0",
+    "prettier": "^2.6.2",
+    "typescript": "^4.6.4"
+  },
+  "resolutions": {
+    "@types/react": "17.0.40"
   }
 }
