@@ -8,7 +8,7 @@ import express from 'express';
 const {
   NODE_ENV,
   NEXT_PUBLIC_APP_ENV: APP_ENV,
-  NEXT_PUBLIC_PORT: PORT = '3000',
+  NEXT_PUBLIC_PORT: PORT = '8080',
   NEXT_PUBLIC_HOST = '',
 } = process.env;
 
