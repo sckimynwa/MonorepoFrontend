@@ -1,8 +1,8 @@
 # https://cloud.google.com/build/docs/build-config-file-schema
-steps:
+steps:  
   - name: 'node:16.15.0'
     entrypoint: yarn
-    args: ['--version']
+    args: ['sample-ssr', 'build:dev']
 
   - name: 'gcr.io/cloud-builders/gcloud'
     args:
