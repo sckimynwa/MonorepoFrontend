@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-page-custom-font */
 import Document, {
   DocumentContext,
   DocumentInitialProps,
@@ -9,7 +8,7 @@ import Document, {
 } from 'next/document';
 import { ServerStyleSheet } from 'styled-components';
 
-interface DocumentProps extends DocumentInitialProps {}
+type DocumentProps = DocumentInitialProps;
 
 export default function MyDocument() {
   return (
@@ -38,7 +37,7 @@ export default function MyDocument() {
 }
 
 MyDocument.getInitialProps = async (
-  ctx: DocumentContext
+  ctx: DocumentContext,
 ): Promise<DocumentProps> => {
   const sheet = new ServerStyleSheet();
   const originalRenderPage = ctx.renderPage;
@@ -46,7 +45,7 @@ MyDocument.getInitialProps = async (
   try {
     ctx.renderPage = () =>
       originalRenderPage({
-        enhanceApp: (App) => (props) => sheet.collectStyles(<App {...props} />),
+        enhanceApp: App => props => sheet.collectStyles(<App {...props} />),
       });
 
     const initialProps = await Document.getInitialProps(ctx);
