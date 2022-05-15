@@ -11,13 +11,15 @@
   "scripts": {
     "sample-csr": "yarn workspace @yeoulcoding/sample-csr",
     "sample-ssr": "yarn workspace @yeoulcoding/sample-ssr",
-    "prepare": "simple-git-hooks",
+    "lint-staged": "lint-staged",
     "sc": "sh scripts/git/bootstrap.sh",
     "sc:reset": "git sparse-checkout disable"
   },
+  "pre-commit": "lint-staged",
   "devDependencies": {
     "@yarnpkg/sdks": "^2.6.2",
     "eslint": "^7.30.0",
+    "lint-staged": "^12.4.1",
     "prettier": "^2.6.2",
     "typescript": "^4.6.4"
   },
