@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 /* eslint-disable @typescript-eslint/no-var-requires */
 const CracoAlias = require('craco-alias');
 
@@ -16,7 +17,7 @@ module.exports = {
     },
   ],
   webpack: {
-    configure: (webpackConfig) => {
+    configure: webpackConfig => {
       webpackConfig.module.rules.push({
         test: /\.(ts|tsx)$/,
         exclude: /node_modules/,
