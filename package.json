@@ -15,7 +15,9 @@
     "sc": "sh scripts/git/bootstrap.sh",
     "sc:reset": "git sparse-checkout disable"
   },
-  "pre-commit": "lint-staged",
+  "pre-commit": [
+    "lint-staged"
+  ],
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.23.0",
     "@typescript-eslint/parser": "^5.23.0",
