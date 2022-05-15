@@ -1,7 +1,7 @@
 {
-  "root": true,
-  "extends": "next",
+  "extends": ["airbnb"],
   "rules": {
+    "no-console": "error",
     "class-methods-use-this": "off",
     "import/no-unresolved": "off",
     "@typescript-eslint/no-unused-vars": ["warn", { "argsIgnorePattern": "^_" }]

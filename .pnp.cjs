@@ -45,6 +45,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@yarnpkg/sdks", "npm:2.6.2"],\
             ["eslint", "npm:7.32.0"],\
+            ["eslint-config-airbnb", "virtual:8a529a5b3c3e96c8d495b6e523d653bc10258abfeb44427d109cc28d3d8b2bd6bdf7be266c1c6f3efb3f679c7370b6d7bd5ee89a608bb08739f37606183d6dd5#npm:19.0.4"],\
             ["lint-staged", "npm:12.4.1"],\
             ["prettier", "npm:2.6.2"],\
             ["typescript", "patch:typescript@npm%3A4.6.4#~builtin<compat/typescript>::version=4.6.4&hash=7ad353"]\
@@ -9846,6 +9847,77 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["eslint-config-airbnb", [\
+        ["npm:19.0.4", {\
+          "packageLocation": "./.yarn/cache/eslint-config-airbnb-npm-19.0.4-a73150c84a-253178689c.zip/node_modules/eslint-config-airbnb/",\
+          "packageDependencies": [\
+            ["eslint-config-airbnb", "npm:19.0.4"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:8a529a5b3c3e96c8d495b6e523d653bc10258abfeb44427d109cc28d3d8b2bd6bdf7be266c1c6f3efb3f679c7370b6d7bd5ee89a608bb08739f37606183d6dd5#npm:19.0.4", {\
+          "packageLocation": "./.yarn/__virtual__/eslint-config-airbnb-virtual-8dff5ef933/0/cache/eslint-config-airbnb-npm-19.0.4-a73150c84a-253178689c.zip/node_modules/eslint-config-airbnb/",\
+          "packageDependencies": [\
+            ["eslint-config-airbnb", "virtual:8a529a5b3c3e96c8d495b6e523d653bc10258abfeb44427d109cc28d3d8b2bd6bdf7be266c1c6f3efb3f679c7370b6d7bd5ee89a608bb08739f37606183d6dd5#npm:19.0.4"],\
+            ["@types/eslint", null],\
+            ["@types/eslint-plugin-import", null],\
+            ["@types/eslint-plugin-jsx-a11y", null],\
+            ["@types/eslint-plugin-react", null],\
+            ["@types/eslint-plugin-react-hooks", null],\
+            ["eslint", "npm:7.32.0"],\
+            ["eslint-config-airbnb-base", "virtual:8dff5ef933eda4fc0a596a1bae234a9de3cd54f269db4ca4f6c1ae53fc2bd79c2013dc6616c5b2705d97b31b6987f959bcd151103aaef33bcbdc2673410d41b6#npm:15.0.0"],\
+            ["eslint-plugin-import", null],\
+            ["eslint-plugin-jsx-a11y", null],\
+            ["eslint-plugin-react", null],\
+            ["eslint-plugin-react-hooks", null],\
+            ["object.assign", "npm:4.1.2"],\
+            ["object.entries", "npm:1.1.5"]\
+          ],\
+          "packagePeers": [\
+            "@types/eslint-plugin-import",\
+            "@types/eslint-plugin-jsx-a11y",\
+            "@types/eslint-plugin-react-hooks",\
+            "@types/eslint-plugin-react",\
+            "@types/eslint",\
+            "eslint-plugin-import",\
+            "eslint-plugin-jsx-a11y",\
+            "eslint-plugin-react-hooks",\
+            "eslint-plugin-react",\
+            "eslint"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["eslint-config-airbnb-base", [\
+        ["npm:15.0.0", {\
+          "packageLocation": "./.yarn/cache/eslint-config-airbnb-base-npm-15.0.0-802837dd26-38626bad2c.zip/node_modules/eslint-config-airbnb-base/",\
+          "packageDependencies": [\
+            ["eslint-config-airbnb-base", "npm:15.0.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:8dff5ef933eda4fc0a596a1bae234a9de3cd54f269db4ca4f6c1ae53fc2bd79c2013dc6616c5b2705d97b31b6987f959bcd151103aaef33bcbdc2673410d41b6#npm:15.0.0", {\
+          "packageLocation": "./.yarn/__virtual__/eslint-config-airbnb-base-virtual-d3fab01cd6/0/cache/eslint-config-airbnb-base-npm-15.0.0-802837dd26-38626bad2c.zip/node_modules/eslint-config-airbnb-base/",\
+          "packageDependencies": [\
+            ["eslint-config-airbnb-base", "virtual:8dff5ef933eda4fc0a596a1bae234a9de3cd54f269db4ca4f6c1ae53fc2bd79c2013dc6616c5b2705d97b31b6987f959bcd151103aaef33bcbdc2673410d41b6#npm:15.0.0"],\
+            ["@types/eslint", null],\
+            ["@types/eslint-plugin-import", null],\
+            ["confusing-browser-globals", "npm:1.0.11"],\
+            ["eslint", "npm:7.32.0"],\
+            ["eslint-plugin-import", null],\
+            ["object.assign", "npm:4.1.2"],\
+            ["object.entries", "npm:1.1.5"],\
+            ["semver", "npm:6.3.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/eslint-plugin-import",\
+            "@types/eslint",\
+            "eslint-plugin-import",\
+            "eslint"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["eslint-config-react-app", [\
         ["npm:6.0.0", {\
           "packageLocation": "./.yarn/cache/eslint-config-react-app-npm-6.0.0-c5908e735c-b265852455.zip/node_modules/eslint-config-react-app/",\
@@ -15108,6 +15180,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["normal-coder", "workspace:."],\
             ["@yarnpkg/sdks", "npm:2.6.2"],\
             ["eslint", "npm:7.32.0"],\
+            ["eslint-config-airbnb", "virtual:8a529a5b3c3e96c8d495b6e523d653bc10258abfeb44427d109cc28d3d8b2bd6bdf7be266c1c6f3efb3f679c7370b6d7bd5ee89a608bb08739f37606183d6dd5#npm:19.0.4"],\
             ["lint-staged", "npm:12.4.1"],\
             ["prettier", "npm:2.6.2"],\
             ["typescript", "patch:typescript@npm%3A4.6.4#~builtin<compat/typescript>::version=4.6.4&hash=7ad353"]\

@@ -1,8 +1,8 @@
 dispatch:
-  - url: "*/csr"
+  - url: "*/csr/*"
     service: sample-csr
 
-  - url: "*/ssr"
+  - url: "*/ssr/*"
     service: sample-ssr
 
   - url: "*/*"
