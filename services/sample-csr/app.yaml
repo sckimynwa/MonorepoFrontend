@@ -4,7 +4,7 @@ env: standard
 instance_class: F1
 service: sample-csr
 
-default_expiration: "30m"
+default_expiration: '30m'
 
 handlers:
   - url: /favicon\.ico
