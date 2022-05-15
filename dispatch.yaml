@@ -5,5 +5,8 @@ dispatch:
   - url: '*/csr'
     service: sample-csr
 
+  - url: '*/docs'
+    service: sample-docs
+
   - url: '*/*'
     service: default
