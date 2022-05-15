@@ -4,6 +4,10 @@
 /** @type {import('next').NextConfig} */
 
 const withPlugins = require('next-compose-plugins');
+const withMDX = require('@next/mdx')({
+  extension: /\.mdx?$/,
+  pageExtensions: ['md', 'mdx', 'ts', 'tsx', 'js', 'jsx'],
+});
 
 const { GIT_SHA, NODE_ENV, NEXT_PUBLIC_APP_ENV, NEXT_PUBLIC_PORT } =
   process.env;
@@ -13,7 +17,7 @@ console.log(`env: NODE_ENV = ${NODE_ENV}`);
 console.log(`env: NEXT_PUBLIC_APP_ENV = ${NEXT_PUBLIC_APP_ENV}`);
 console.log(`env: NEXT_PUBLIC_PORT = ${NEXT_PUBLIC_PORT}`);
 
-const moduleExports = withPlugins([], {
+const moduleExports = withPlugins([[withMDX]], {
   async headers() {
     return [
       {
