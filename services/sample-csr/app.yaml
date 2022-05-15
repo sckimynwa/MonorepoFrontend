@@ -4,24 +4,24 @@ env: standard
 instance_class: F1
 service: sample-csr
 
-default_expiration: "30m"
+default_expiration: '30m'
 
 handlers:
-  - url: /favicon\.ico
+  - url: /csr/favicon\.ico
     secure: always
     static_files: build/favicon.ico
     upload: build/favicon.ico
 
-  - url: /robots\.txt
+  - url: /csr/robots\.txt
     secure: always
     static_files: build/robots.txt
     upload: build/robots.txt
 
-  - url: /static
+  - url: /csr/static
     secure: always
     static_dir: build/static
 
-  - url: /.*
+  - url: /csr/.*
     secure: always
     expiration: 10s
     static_files: build/index.html

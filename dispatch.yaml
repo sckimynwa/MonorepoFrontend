@@ -4,6 +4,3 @@ dispatch:
 
   - url: '*/ssr/*'
     service: sample-ssr
-
-  - url: '*/*'
-    service: sample-ssr
