@@ -5,7 +5,6 @@ steps:
     args: ['sample-docs', 'build:dev']
 
   - name: 'gcr.io/cloud-builders/gcloud'
-    args:
-      ['app', 'deploy', '--verbosity', 'debug', 'services/sample-docs/app.yaml']
+    args: ['app', 'deploy', '--verbosity', 'debug', 'docs/sample-docs/app.yaml']
 
 timeout: '1600s'
