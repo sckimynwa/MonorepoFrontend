@@ -1,3 +1,8 @@
+# .yarn
+/.yarn
+/.vscode
+/scripts
+
 # dependencies
 /node_modules
 /.pnp
