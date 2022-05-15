@@ -1,6 +1,10 @@
 import React from 'react';
 
 function App() {
+  const temp = 1;
+
+  const a = '1234';
+
   return <div>This is CSR Page</div>;
 }
 
