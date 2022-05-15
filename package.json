@@ -9,6 +9,7 @@
     "services/*"
   ],
   "scripts": {
+    "sample-docs": "yarn workspace @yeoulcoding/sample-docs",
     "sample-csr": "yarn workspace @yeoulcoding/sample-csr",
     "sample-ssr": "yarn workspace @yeoulcoding/sample-ssr",
     "lint-staged": "lint-staged",
