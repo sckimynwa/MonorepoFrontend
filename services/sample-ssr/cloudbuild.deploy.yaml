@@ -11,7 +11,8 @@ steps:
         'deploy',
         '--verbosity',
         'debug',
-        'services/sample-ssr/app.dev.yaml',
+        'dispatch.yaml',
+        'services/sample-ssr/app.yaml',
       ]
 
 timeout: '1600s'

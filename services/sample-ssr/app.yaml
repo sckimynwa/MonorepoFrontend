@@ -2,13 +2,14 @@
 runtime: nodejs16
 env: standard
 instance_class: F1
+service: sample-ssr
 
 default_expiration: '30m'
 
 entrypoint: npm run start:dev
 
 handlers:
-  - url: /ssr.*
+  - url: /.*
     secure: always
     script: auto
 
