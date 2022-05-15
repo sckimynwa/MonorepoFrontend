@@ -55,7 +55,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-react", "virtual:8a529a5b3c3e96c8d495b6e523d653bc10258abfeb44427d109cc28d3d8b2bd6bdf7be266c1c6f3efb3f679c7370b6d7bd5ee89a608bb08739f37606183d6dd5#npm:7.29.4"],\
             ["eslint-plugin-react-hooks", "virtual:8a529a5b3c3e96c8d495b6e523d653bc10258abfeb44427d109cc28d3d8b2bd6bdf7be266c1c6f3efb3f679c7370b6d7bd5ee89a608bb08739f37606183d6dd5#npm:4.5.0"],\
             ["lint-staged", "npm:12.4.1"],\
-            ["pre-commit", "npm:1.2.2"],\
             ["prettier", "npm:2.6.2"],\
             ["shell-quote", "npm:1.7.3"],\
             ["typescript", "patch:typescript@npm%3A4.6.4#~builtin<compat/typescript>::version=4.6.4&hash=7ad353"]\
@@ -8545,16 +8544,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["cross-spawn", [\
-        ["npm:5.1.0", {\
-          "packageLocation": "./.yarn/cache/cross-spawn-npm-5.1.0-a3e220603e-726939c995.zip/node_modules/cross-spawn/",\
-          "packageDependencies": [\
-            ["cross-spawn", "npm:5.1.0"],\
-            ["lru-cache", "npm:4.1.5"],\
-            ["shebang-command", "npm:1.2.0"],\
-            ["which", "npm:1.3.1"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
         ["npm:6.0.5", {\
           "packageLocation": "./.yarn/cache/cross-spawn-npm-6.0.5-2deab6c280-f893bb0d96.zip/node_modules/cross-spawn/",\
           "packageDependencies": [\
@@ -14619,15 +14608,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["lru-cache", [\
-        ["npm:4.1.5", {\
-          "packageLocation": "./.yarn/cache/lru-cache-npm-4.1.5-ede304cc43-4bb4b58a36.zip/node_modules/lru-cache/",\
-          "packageDependencies": [\
-            ["lru-cache", "npm:4.1.5"],\
-            ["pseudomap", "npm:1.0.2"],\
-            ["yallist", "npm:2.1.2"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
         ["npm:5.1.1", {\
           "packageLocation": "./.yarn/cache/lru-cache-npm-5.1.1-f475882a51-c154ae1cbb.zip/node_modules/lru-cache/",\
           "packageDependencies": [\
@@ -15539,7 +15519,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-react", "virtual:8a529a5b3c3e96c8d495b6e523d653bc10258abfeb44427d109cc28d3d8b2bd6bdf7be266c1c6f3efb3f679c7370b6d7bd5ee89a608bb08739f37606183d6dd5#npm:7.29.4"],\
             ["eslint-plugin-react-hooks", "virtual:8a529a5b3c3e96c8d495b6e523d653bc10258abfeb44427d109cc28d3d8b2bd6bdf7be266c1c6f3efb3f679c7370b6d7bd5ee89a608bb08739f37606183d6dd5#npm:4.5.0"],\
             ["lint-staged", "npm:12.4.1"],\
-            ["pre-commit", "npm:1.2.2"],\
             ["prettier", "npm:2.6.2"],\
             ["shell-quote", "npm:1.7.3"],\
             ["typescript", "patch:typescript@npm%3A4.6.4#~builtin<compat/typescript>::version=4.6.4&hash=7ad353"]\
@@ -15973,15 +15952,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/os-browserify-npm-0.3.0-cbc91c79a5-16e37ba3c0.zip/node_modules/os-browserify/",\
           "packageDependencies": [\
             ["os-browserify", "npm:0.3.0"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["os-shim", [\
-        ["npm:0.1.3", {\
-          "packageLocation": "./.yarn/cache/os-shim-npm-0.1.3-03d492dbf1-2172be6da7.zip/node_modules/os-shim/",\
-          "packageDependencies": [\
-            ["os-shim", "npm:0.1.3"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -17417,18 +17387,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
-      ["pre-commit", [\
-        ["npm:1.2.2", {\
-          "packageLocation": "./.yarn/unplugged/pre-commit-npm-1.2.2-f30af83877/node_modules/pre-commit/",\
-          "packageDependencies": [\
-            ["pre-commit", "npm:1.2.2"],\
-            ["cross-spawn", "npm:5.1.0"],\
-            ["spawn-sync", "npm:1.0.15"],\
-            ["which", "npm:1.2.14"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
       ["prelude-ls", [\
         ["npm:1.1.2", {\
           "packageLocation": "./.yarn/cache/prelude-ls-npm-1.1.2-a0daac0886-c4867c8748.zip/node_modules/prelude-ls/",\
@@ -17673,15 +17631,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/prr-npm-1.0.1-608d442761-3bca2db047.zip/node_modules/prr/",\
           "packageDependencies": [\
             ["prr", "npm:1.0.1"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["pseudomap", [\
-        ["npm:1.0.2", {\
-          "packageLocation": "./.yarn/cache/pseudomap-npm-1.0.2-0d0e40fee0-856c0aae0f.zip/node_modules/pseudomap/",\
-          "packageDependencies": [\
-            ["pseudomap", "npm:1.0.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -19514,17 +19463,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/sourcemap-codec-npm-1.4.8-3a1a9e60b1-b57981c056.zip/node_modules/sourcemap-codec/",\
           "packageDependencies": [\
             ["sourcemap-codec", "npm:1.4.8"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["spawn-sync", [\
-        ["npm:1.0.15", {\
-          "packageLocation": "./.yarn/unplugged/spawn-sync-npm-1.0.15-ae144228c0/node_modules/spawn-sync/",\
-          "packageDependencies": [\
-            ["spawn-sync", "npm:1.0.15"],\
-            ["concat-stream", "npm:1.6.2"],\
-            ["os-shim", "npm:0.1.3"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -21768,14 +21706,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["which", [\
-        ["npm:1.2.14", {\
-          "packageLocation": "./.yarn/cache/which-npm-1.2.14-dd68f18c46-f69f2b75ac.zip/node_modules/which/",\
-          "packageDependencies": [\
-            ["which", "npm:1.2.14"],\
-            ["isexe", "npm:2.0.0"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
         ["npm:1.3.1", {\
           "packageLocation": "./.yarn/cache/which-npm-1.3.1-f0ebb8bdd8-f2e185c624.zip/node_modules/which/",\
           "packageDependencies": [\
@@ -22232,13 +22162,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["yallist", [\
-        ["npm:2.1.2", {\
-          "packageLocation": "./.yarn/cache/yallist-npm-2.1.2-2e38c366a3-9ba9940920.zip/node_modules/yallist/",\
-          "packageDependencies": [\
-            ["yallist", "npm:2.1.2"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
         ["npm:3.1.1", {\
           "packageLocation": "./.yarn/cache/yallist-npm-3.1.1-a568a556b4-48f7bb00dc.zip/node_modules/yallist/",\
           "packageDependencies": [\
