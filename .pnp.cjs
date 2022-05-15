@@ -5854,6 +5854,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@mdx-js/loader", "virtual:d666602b6e55007acfb2553e06799bc9f2050a7763ab42484322bdce019929695c1e72e52cf057659fb54711e6b9f2564d192fbd780353b7c5347eb4001ac132#npm:2.1.1"],\
             ["@next/mdx", "virtual:d666602b6e55007acfb2553e06799bc9f2050a7763ab42484322bdce019929695c1e72e52cf057659fb54711e6b9f2564d192fbd780353b7c5347eb4001ac132#npm:12.1.6"],\
             ["@types/express", "npm:4.17.13"],\
+            ["@types/mdx", "npm:2.0.1"],\
             ["@types/node", "npm:17.0.24"],\
             ["@types/react", "npm:17.0.40"],\
             ["@types/react-dom", "npm:17.0.11"],\

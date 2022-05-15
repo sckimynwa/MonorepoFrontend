@@ -1,11 +1,8 @@
+import MainPage from '@/components/pages/MainPage';
 import type { NextPage } from 'next';
 
-
-const MembershipPage: NextPage = () => {
-  return (
-    <div>This is SSR Page</div>
-  );
+const IndexPage: NextPage = () => {
+  return <MainPage />;
 };
 
-
-export default MembershipPage;
+export default IndexPage;

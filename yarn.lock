@@ -2788,7 +2788,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/mdx@npm:^2.0.0":
+"@types/mdx@npm:^2.0.0, @types/mdx@npm:^2.0.1":
   version: 2.0.1
   resolution: "@types/mdx@npm:2.0.1"
   checksum: 521ee9f976af45859a4dd60b159e1cc09109de49ec5570fe70f34cddb0a7b5472b87c1bea743429270398207a997821dec34fd7bd63cbc2a1e5f2f6c701dd1c2
@@ -3682,6 +3682,7 @@ __metadata:
     "@mdx-js/loader": ^2.1.1
     "@next/mdx": ^12.1.6
     "@types/express": ^4.17.13
+    "@types/mdx": ^2.0.1
     "@types/node": 17.0.24
     "@types/react": 17.0.39
     "@types/react-dom": 17.0.11
