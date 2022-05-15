@@ -1,7 +1,7 @@
 import type { NextPage } from 'next';
 
-const IndexPage: NextPage = () => {
+const Index: NextPage = () => {
   return <div>This is SSR Page</div>;
 };
 
-export default IndexPage;
+export default Index;
