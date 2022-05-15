@@ -6,13 +6,6 @@ steps:
 
   - name: 'gcr.io/cloud-builders/gcloud'
     args:
-      [
-        'app',
-        'deploy',
-        '--verbosity',
-        'debug',
-        'dispatch.yaml',
-        'services/sample-ssr/app.yaml',
-      ]
+      ['app', 'deploy', '--verbosity', 'debug', 'services/sample-ssr/app.yaml']
 
 timeout: '1600s'
