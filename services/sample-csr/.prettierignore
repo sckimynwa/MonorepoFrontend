@@ -1,10 +1,4 @@
-# .yarn
-/.yarn
-/.vscode
-/scripts
-
 # dependencies
-/node_modules
 /.pnp
 .pnp.js
 
@@ -19,5 +13,4 @@
 /build
 /dist
 
-# include storybook
-!/.storybook
+/public
