@@ -1,0 +1,24 @@
+# https://cloud.google.com/appengine/docs/standard/nodejs/config/appref
+runtime: nodejs16
+env: standard
+instance_class: F1
+service: sample-ssr
+
+default_expiration: '30m'
+
+entrypoint: npm run start:dev
+
+handlers:
+  - url: /.*
+    secure: always
+    script: auto
+
+automatic_scaling:
+  min_idle_instances: 0
+  max_idle_instances: 1
+  max_concurrent_requests: 20
+  min_pending_latency: automatic
+  max_pending_latency: automatic
+
+inbound_services:
+  - warmup
