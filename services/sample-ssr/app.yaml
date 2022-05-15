@@ -9,7 +9,7 @@ default_expiration: '30m'
 entrypoint: npm run start:dev
 
 handlers:
-  - url: /.*
+  - url: /ssr/.*
     secure: always
     script: auto
 
