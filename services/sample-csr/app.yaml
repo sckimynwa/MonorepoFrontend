@@ -7,21 +7,21 @@ service: sample-csr
 default_expiration: '30m'
 
 handlers:
-  - url: /csr/favicon\.ico
+  - url: /favicon\.ico
     secure: always
     static_files: build/favicon.ico
     upload: build/favicon.ico
 
-  - url: /csr/robots\.txt
+  - url: /robots\.txt
     secure: always
     static_files: build/robots.txt
     upload: build/robots.txt
 
-  - url: /csr/static
+  - url: /static
     secure: always
     static_dir: build/static
 
-  - url: /csr/.*
+  - url: /.*
     secure: always
     expiration: 10s
     static_files: build/index.html
