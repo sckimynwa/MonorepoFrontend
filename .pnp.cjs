@@ -57,6 +57,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["lint-staged", "npm:12.4.1"],\
             ["prettier", "npm:2.6.2"],\
             ["shell-quote", "npm:1.7.3"],\
+            ["simple-git-hooks", "npm:2.7.0"],\
             ["typescript", "patch:typescript@npm%3A4.6.4#~builtin<compat/typescript>::version=4.6.4&hash=7ad353"]\
           ],\
           "linkType": "SOFT"\
@@ -15521,6 +15522,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["lint-staged", "npm:12.4.1"],\
             ["prettier", "npm:2.6.2"],\
             ["shell-quote", "npm:1.7.3"],\
+            ["simple-git-hooks", "npm:2.7.0"],\
             ["typescript", "patch:typescript@npm%3A4.6.4#~builtin<compat/typescript>::version=4.6.4&hash=7ad353"]\
           ],\
           "linkType": "SOFT"\
@@ -19205,6 +19207,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/signal-exit-npm-3.0.7-bd270458a3-a2f098f247.zip/node_modules/signal-exit/",\
           "packageDependencies": [\
             ["signal-exit", "npm:3.0.7"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["simple-git-hooks", [\
+        ["npm:2.7.0", {\
+          "packageLocation": "./.yarn/unplugged/simple-git-hooks-npm-2.7.0-a91e5fa27a/node_modules/simple-git-hooks/",\
+          "packageDependencies": [\
+            ["simple-git-hooks", "npm:2.7.0"]\
           ],\
           "linkType": "HARD"\
         }]\
