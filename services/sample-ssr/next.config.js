@@ -14,6 +14,7 @@ console.log(`env: NEXT_PUBLIC_APP_ENV = ${NEXT_PUBLIC_APP_ENV}`);
 console.log(`env: NEXT_PUBLIC_PORT = ${NEXT_PUBLIC_PORT}`);
 
 const moduleExports = withPlugins([], {
+  basePath: '/ssr',
   async headers() {
     return [
       {
