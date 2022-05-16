@@ -2,11 +2,12 @@ dispatch:
   - url: '*/ssr/*'
     service: sample-ssr
 
-  - url: '*/csr/*'
-    service: sample-csr
-
   - url: '*/docs/*'
     service: sample-docs
 
+  - url: '*/csr/*'
+    service: sample-csr
+
   - url: '*/*'
     service: default
+
